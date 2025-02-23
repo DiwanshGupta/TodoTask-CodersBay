@@ -1,0 +1,12 @@
+import axios from "axios";
+
+
+const instance = axios.create({
+    // development  
+    baseURL: `http://localhost:5000/api/v1`,
+    withCredentials: true,
+
+} );
+
+
+export default instance;
